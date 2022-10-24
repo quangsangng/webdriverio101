@@ -1,0 +1,32 @@
+{
+  "name": "WebdriverIO",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "wdio": "^6.0.1",
+    "webdriverio": "^7.25.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.4",
+    "@babel/register": "^7.18.9",
+    "@badisi/wdio-harness": "^1.0.5",
+    "@wdio/cli": "^7.25.1",
+    "@wdio/cucumber-framework": "^7.25.1",
+    "@wdio/jasmine-framework": "^7.25.1",
+    "@wdio/local-runner": "^7.25.1",
+    "@wdio/mocha-framework": "^7.25.1",
+    "@wdio/spec-reporter": "^7.25.1",
+    "chromedriver": "^106.0.1",
+    "wdio-chromedriver-service": "^8.0.0",
+    "wdio-wait-for": "^2.2.6"
+  }
+}
