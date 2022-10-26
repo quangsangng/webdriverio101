@@ -30,7 +30,7 @@ describe('Verify create regular appointment successfully', async () => {
         await SchedulerPage.deleteAppointment()
     });
 
-    it('TCID10122 - Create regular appointment with subject', async () => {
+    it('TCID201 - Create regular appointment with start hour > end hour', async () => {
         await SchedulerPage.clickNewAppointment()
         await SchedulerPage.setValueForSubjectInputField()
         await SchedulerPage.setStartEndHour(10, 5)

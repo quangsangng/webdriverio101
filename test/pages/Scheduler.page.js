@@ -1,3 +1,6 @@
+import Page from './Page'
+
+
 const locatorOfSchedulerPage = {
     createNewAppointmentButton: '//*[@id="smart_main_menu_part"]/span[1]/a',
     subjectInputField: '//*[@id="main_table"]/tbody/tr[2]/td/div/div[2]/input',
@@ -13,7 +16,7 @@ const locatorOfSchedulerPage = {
 }
 
 
-import Page from './Page'
+
 
 
 class SchedulerPage extends Page {
