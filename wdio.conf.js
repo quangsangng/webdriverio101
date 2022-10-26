@@ -96,7 +96,7 @@ exports.config = {
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
     // baseUrl: 'http://localhost',
-    baseUrl: 'https://internship-qa-3.s.cybozu-dev.com/',
+    baseUrl: 'https://internship-qa-3.s.cybozu-dev.com',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
