@@ -27,6 +27,12 @@ exports.config = {
     exclude: [
         // 'path/to/excluded/files'
     ],
+    suites: {
+        success: [
+            './test/specs/case-1.test.js',
+        ],
+        fail: ['./test/specs/case-2.test.js']
+    },
     //
     // ============
     // Capabilities
@@ -50,7 +56,7 @@ exports.config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-    
+
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
@@ -113,7 +119,7 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
     services: ['chromedriver'],
-    
+
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
     // see also: https://webdriver.io/docs/frameworks
@@ -144,7 +150,7 @@ exports.config = {
     ],
 
 
-    
+
     //
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
@@ -299,4 +305,4 @@ exports.config = {
     */
     // onReload: function(oldSessionId, newSessionId) {
     // }
-}
+};
