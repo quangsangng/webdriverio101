@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666838638796' stop='1666838698821'>
+    <name>Verify create regular appointment successfully</name>
+    <title>Verify create regular appointment successfully</title>
+    <test-cases>
+        <test-case start='1666838638796' status='broken' stop='1666838698820'>
+            <name>"before all" hook for Verify create regular appointment successfully</name>
+            <title>"before all" hook for Verify create regular appointment successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "Verify create regular appointment successfully "before all" hook for "TCID101 - Create regular appointment with subject"" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\test\specs\case-1.test.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "Verify create regular appointment successfully "before all" hook for "TCID101 - Create regular appointment with subject"" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\test\specs\case-1.test.js)
+                    at createTimeoutError (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\node_modules\mocha\lib\errors.js:498:15)
+                    at Hook.Runnable._timeoutError (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (node:internal/timers:559:17)
+                    at processTimers (node:internal/timers:502:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

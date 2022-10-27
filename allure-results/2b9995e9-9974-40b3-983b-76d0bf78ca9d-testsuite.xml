@@ -1,0 +1,56 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666840297457' stop='1666840315896'>
+    <name>Verify create regular appointment successfully</name>
+    <title>Verify create regular appointment successfully</title>
+    <test-cases>
+        <test-case start='1666840297457' status='broken' stop='1666840315895'>
+            <name>TCID101 - Create all day appointment with subject</name>
+            <title>TCID101 - Create all day appointment with subject</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>waitUntil condition failed with the following reason: Wrong parameters applied for getElementText
+                Usage: getElementText(elementId)
+                
+                Property Description:
+                  "elementId" (string): the id of an element returned in a previous call to Find Element(s)
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-get-element-text
+                </message>
+                <stack-trace>Error: waitUntil condition failed with the following reason: Wrong parameters applied for getElementText
+                Usage: getElementText(elementId)
+                
+                Property Description:
+                  "elementId" (string): the id of an element returned in a previous call to Find Element(s)
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-get-element-text
+                
+                    at C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\node_modules\webdriverio\build\commands\browser\waitUntil.js:70:15
+                    at Browser.wrapCommandFn (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at SchedulerPage.waitUntilElementShowText (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\test\pages\/Page.js:33:9)
+                    at SchedulerPage.clickAllDayAppointment (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\test\pages\/Scheduler.page.js:89:9)
+                    at Context.&lt;anonymous> (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\test\specs\/case-1.test.js:39:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

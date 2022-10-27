@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666841566645' stop='1666841586012'>
+    <name>Verify create regular appointment successfully</name>
+    <title>Verify create regular appointment successfully</title>
+    <test-cases>
+        <test-case start='1666841566646' status='broken' stop='1666841586011'>
+            <name>TCID101 - Create all day appointment with subject</name>
+            <title>TCID101 - Create all day appointment with subject</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call selectByIndex on element with selector "#start_hour" because element wasn't found</message>
+                <stack-trace>Error: Can't call selectByIndex on element with selector "#start_hour" because element wasn't found
+                    at implicitWait (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at Element.wrapCommandFn (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at SchedulerPage.setStartEndHour (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\test\pages\/Scheduler.page.js:55:9)
+                    at Context.&lt;anonymous> (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\test\specs\/case-1.test.js:40:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

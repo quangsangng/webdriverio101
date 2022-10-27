@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666838847076' stop='1666838878827'>
+    <name>Verify create regular appointment successfully</name>
+    <title>Verify create regular appointment successfully</title>
+    <test-cases>
+        <test-case start='1666838847076' status='broken' stop='1666838878826'>
+            <name>"before all" hook for Verify create regular appointment successfully</name>
+            <title>"before all" hook for Verify create regular appointment successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=106.0.5249.119)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=106.0.5249.119)
+                    at getErrorFromResponseBody (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Browser.wrapCommandFn (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.wrapCommandFn (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at LoginPage.setCert (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\test\pages\/Page.js:47:9)
+                    at Context.&lt;anonymous> (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\test\specs\/case-1.test.js:11:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666840090081' stop='1666840116959'>
+    <name>Verify create regular appointment successfully</name>
+    <title>Verify create regular appointment successfully</title>
+    <test-cases>
+        <test-case start='1666840090082' status='broken' stop='1666840106900'>
+            <name>"before each" hook for Verify create regular appointment successfully</name>
+            <title>"before each" hook for Verify create regular appointment successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Chờ 10s nếu không được là fail</message>
+                <stack-trace>Error: Chờ 10s nếu không được là fail
+                    at C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at Browser.wrapCommandFn (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at LoginPage.waitUntilElementDisplayed (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\test\pages\/Page.js:29:9)
+                    at LoginPage.waitForLoginSuccess (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\test\pages\/Page.js:38:9)
+                    at Context.&lt;anonymous> (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\test\specs\/case-1.test.js:18:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666840106901' status='broken' stop='1666840116957'>
+            <name>"after each" hook for Verify create regular appointment successfully</name>
+            <title>"after each" hook for Verify create regular appointment successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "//*[@id="cloudHeader-userName-grn"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//*[@id="cloudHeader-userName-grn"]" because element wasn't found
+                    at implicitWait (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at Element.wrapCommandFn (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at SchedulerPage.logout (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\test\pages\/Page.js:42:9)
+                    at Context.&lt;anonymous> (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\test\specs\/case-1.test.js:23:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

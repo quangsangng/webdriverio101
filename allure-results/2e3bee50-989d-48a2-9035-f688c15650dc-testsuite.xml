@@ -1,0 +1,74 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666842375337' stop='1666842386401'>
+    <name>Verify create regular appointment successfully</name>
+    <title>Verify create regular appointment successfully</title>
+    <test-cases>
+        <test-case start='1666842375337' status='broken' stop='1666842386349'>
+            <name>"before each" hook for Verify create regular appointment successfully</name>
+            <title>"before each" hook for Verify create regular appointment successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=106.0.5249.119)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=106.0.5249.119)
+                    at getErrorFromResponseBody (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Browser.wrapCommandFn (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.$ (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at Browser.wrapCommandFn (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\test\specs\/case-1.test.js:15:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666842386350' status='broken' stop='1666842386400'>
+            <name>"after each" hook for Verify create regular appointment successfully</name>
+            <title>"after each" hook for Verify create regular appointment successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=106.0.5249.119)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=106.0.5249.119)
+                    at getErrorFromResponseBody (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Browser.wrapCommandFn (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.$ (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at Browser.wrapCommandFn (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at SchedulerPage.logout (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\test\pages\/Page.js:42:9)
+                    at Context.&lt;anonymous> (C:\Users\CBZINT-2\Desktop\sang\code\webdriverio101\test\specs\/case-1.test.js:23:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

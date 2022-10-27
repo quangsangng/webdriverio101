@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666837726985' stop='1666837757602'>
+    <name>Verify create regular appointment successfully</name>
+    <title>Verify create regular appointment successfully</title>
+    <test-cases>
+        <test-case start='1666837726985' status='passed' stop='1666837749555'>
+            <name>TCID101 - Create regular appointment with subject</name>
+            <title>TCID101 - Create regular appointment with subject</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Edge-106.0.1370.47'/>
+                <parameter kind='argument' name='browser' value='Edge-106.0.1370.47'/>
+                <parameter kind='argument' name='browser' value='Edge-106.0.1370.47'/>
+                <parameter kind='argument' name='browser' value='Edge-106.0.1370.47'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666837749555' status='passed' stop='1666837757601'>
+            <name>TCID201 - Create regular appointment with start hour > end hour</name>
+            <title>TCID201 - Create regular appointment with start hour > end hour</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Edge-106.0.1370.47'/>
+                <parameter kind='argument' name='browser' value='Edge-106.0.1370.47'/>
+                <parameter kind='argument' name='browser' value='Edge-106.0.1370.47'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

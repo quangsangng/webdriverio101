@@ -3,7 +3,7 @@ import Page from './Page'
 
 const locatorOfSchedulerPage = {
     createNewAppointmentButton: '//*[@id="smart_main_menu_part"]/span[1]/a',
-    subjectInputField: '//*[@id="main_table"]/tbody/tr[2]/td/div/div[2]/input',
+    subjectInputField: '[title="Appointment title"]',
     addAppointmentButton: '//*[@id="schedule_submit_button"]/a',
     deleteAppointmentButton: '//*[@id="main_menu_part"]/div[1]/span[2]/span/a',
     confirmToDeleteButton_YES: '//*[@id="schedule_button_save"]/a',
@@ -12,10 +12,12 @@ const locatorOfSchedulerPage = {
     endHour: '#end_hour',
     errorCode: '.error_code',
     errorDiagnosis: '.error_diagnosis',
-    confirmToCloseErrorMsg: '//*[@id="msgbox_btn_ok"]/a'
+    confirmToCloseErrorMsg: '//*[@id="msgbox_btn_ok"]/a',
+    allDayAppointment: '//*[@id="schedule/add"]/div[2]/span[2]/span/a',
+    regularAppointment: '//*[@id="schedule/add"]/div[1]/span[2]/span',
+    activeTab: 'span.tab_on  span',
+    notiAboveAppointmentTab: '#body > div.mainarea > div > div.explanation.mTop3.mBottom5'
 }
-
-
 
 
 
@@ -32,6 +34,10 @@ class SchedulerPage extends Page {
     get errorCode () { return $(locatorOfSchedulerPage.errorCode) }
     get errorDiagnosis () { return $(locatorOfSchedulerPage.errorDiagnosis) }
     get confirmToCloseErrorMsg () { return $(locatorOfSchedulerPage.confirmToCloseErrorMsg) }
+    get allDayAppointment () { return $(locatorOfSchedulerPage.allDayAppointment) }
+    get regularAppointment () { return $(locatorOfSchedulerPage.regularAppointment) }
+    get activeTab () {return $(this.activeTab)}
+    get notiAboveAppointmentTab () {return $(locatorOfSchedulerPage.notiAboveAppointmentTab)}
 
     async open () {
         await super.open('/g/schedule/')
@@ -79,7 +85,18 @@ class SchedulerPage extends Page {
         await this.confirmToDeleteButton_YES.click()
         await super.waitUntilElementDisplayed(this.createNewAppointmentButton) 
     }
+
+    async clickAllDayAppointment () {
+        await this.allDayAppointment.click()
+        await super.waitUntilElementDisplayed(this.notiAboveAppointmentTab) 
+        // await browser.pause(2000)
+    }
+
+    async clickRegularAppointment () {
+        await this.regularAppointment.click()
+    }
 }
+
 
 export default new SchedulerPage()
 export {locatorOfSchedulerPage}
